@@ -11,7 +11,7 @@
     clear:both;
 }
 .container{
-    width:100%;height:auto;box-sizing: border-box;margin:0px;padding:0px;overflow: hidden;background-color: #fff;background:url('../img/images/main-back-ground.jpg');background-repeat: no-repeat;background-size: cover;opacity:1;visibility:visible;margin-top:-15px;
+    width:100%;height:auto;box-sizing: border-box;margin:0px;padding:0px;overflow: hidden;background-color: #fff;background:url('../public/img/images/main-back-ground.jpg');background-repeat: no-repeat;background-size: cover;opacity:1;visibility:visible;margin-top:-15px;
 }
 .container-home{
     width:100%;height:auto;margin:0px;padding:0px;
@@ -86,9 +86,9 @@
 .main-tag .visit-tag{background:#FDB813;border-radius:15px; -webkit-border-radius:15px; -moz-border-radius:15px; -ms-border-radius:15px; -o-border-radius:15px;height:70px;margin-top:55px;padding-top:12%;}
 .main-tag .appoint-tag span{font-weight: normal;font-size: 25px;}
 .main-tag li::after {
-    content: "";position: absolute;background-image: url('../img/images/bg-box.png');color: #fff; height: 10px;width: 96%;text-align: center;left: 5px;top: 100px;background-position:bottom;background-repeat: no-repeat;opacity:0.8;
+    content: "";position: absolute;background-image: url('../public/img/images/bg-box.png');color: #fff; height: 10px;width: 96%;text-align: center;left: 5px;top: 100px;background-position:bottom;background-repeat: no-repeat;opacity:0.8;
 }
-.main-tag .appoint-tag::after{ content: "";position: absolute;background-image: url('../img/images/bg-box.png');background-position:bottom;background-repeat: no-repeat;color: #fff; height: 10px;width: 96%;text-align: center;left: 0px;top: 150px;opacity:0.8}
+.main-tag .appoint-tag::after{ content: "";position: absolute;background-image: url('../public/img/images/bg-box.png');background-position:bottom;background-repeat: no-repeat;color: #fff; height: 10px;width: 96%;text-align: center;left: 0px;top: 150px;opacity:0.8}
 /* text-section */
 .text-section{
     width:100%;height:auto;margin-left: auto;margin-right: auto;
@@ -125,7 +125,7 @@ legend span{
 .infor-section .book-appointment{ position:relative;margin-top:30px;;background:orange; color:#fff; width: 400px; margin-left: auto; margin-right: auto; border-radius:15px; -webkit-border-radius:15px; -moz-border-radius:15px; -ms-border-radius:15px; -o-border-radius:15px;font-size:17px; }
 .infor-section .book-appointment span{font-size:10px;}
 .infor-section .book-appointment::after{
-    content: "";position: absolute;background-image: url('../img/images/bg-box.png');color: #fff; height: 10px;width:100%;text-align: center;left: 5px;top: 40px;background-position:bottom;background-repeat: no-repeat;opacity:0.8;
+    content: "";position: absolute;background-image: url('../public/img/images/bg-box.png');color: #fff; height: 10px;width:100%;text-align: center;left: 5px;top: 40px;background-position:bottom;background-repeat: no-repeat;opacity:0.8;
 }
 /* copyright */
 .copyright{
